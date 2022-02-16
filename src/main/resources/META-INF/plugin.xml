@@ -1,0 +1,22 @@
+<idea-plugin>
+    <id>com.aclrp.dev-tools.DevTools</id>
+    <name>Dev Tools</name>
+    <vendor email="lz842063523@foxmail.com" url="https://www.aclrp.com">AcLRP</vendor>
+
+    <description><![CDATA[
+    一个开发者工具集合，包括编码转换，密码生成，证书校验等工具，新功能持续迭代升级中
+    ]]></description>
+
+    <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+        <toolWindow factoryClass="MainPanel.MainPanelFactory" id="DevTools"/>
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+    </actions>
+</idea-plugin>
